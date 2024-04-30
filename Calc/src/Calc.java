@@ -61,8 +61,7 @@ public class Calc {
 }
 class Roman {
     static String [] romanArray = new String[]{"0","I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII","XIII"
-    ,"XIV","XV","XVI","XVII","XVIII","XIX","XX","XXI","XXII","XXIII","XIV","XXV","XXVI","XXVII","XXVIII","XXIX","XXX",
-    "X"};
+    ,"XIV","XV","XVI","XVII","XVIII","XIX","XX","XXI","XXII","XXIII","XIV","XXV","XXVI","XXVII","XXVIII","XXIX","XXX"};
     public static boolean isRoman(String val) {
         for (int i = 0; i < romanArray.length; i++) {
             if (val.equals(romanArray[i])){
